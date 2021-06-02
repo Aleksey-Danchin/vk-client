@@ -7,7 +7,7 @@ import {
 } from "@material-ui/core";
 
 import { styled } from "@material-ui/styles";
-import { useVK } from "../services/VK";
+import { useVK } from "@/services/VK";
 
 const Container = styled(MuiContainer)({ marginTop: "10px" });
 const Center = ({ children }) => (
